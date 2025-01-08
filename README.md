@@ -146,7 +146,33 @@ In this example:
 - **Parallel Execution**: We create a list of futures by calling this function for each video ID.  
 - **Result Collection**: We retrieve the results and filter the videos accordingly.  
 - **Output**: We print the titles and URLs of videos with English transcripts.  
-   
+
+## OUTPUT
+
+```
+2025-01-08 14:48:36,752	INFO worker.py:1777 -- Started a local Ray instance. View the dashboard at 127.0.0.1:8265 
+Found 20 YouTube video(s)
+Videos with English transcripts:
+- Beginners Guide To Web Scraping with Python - All You Need To Know: https://www.youtube.com/watch?v=QhD015WUMxE
+- Web Scraping with Python - Beautiful Soup Crash Course: https://www.youtube.com/watch?v=XVv6mJpFOb0
+- Scraping Data from a Real Website | Web Scraping in Python: https://www.youtube.com/watch?v=8dTpNajxaH0
+- Scrapy Course – Python Web Scraping for Beginners: https://www.youtube.com/watch?v=mBoX_JCKZTE
+- Python Tutorial: Web Scraping with BeautifulSoup and Requests: https://www.youtube.com/watch?v=ng2o98k983k
+- Beautiful Soup 4 Tutorial #1 - Web Scraping With Python: https://www.youtube.com/watch?v=gRLHr664tXA
+- Python AI Web Scraper Tutorial - Use AI To Scrape ANYTHING: https://www.youtube.com/watch?v=Oo8-nEuDBkk
+- Web Scraping with Python - Start HERE: https://www.youtube.com/watch?v=1PCWwK0AsE0
+- Ultimate Guide To Web Scraping - Node.js & Python (Puppeteer & Beautiful Soup): https://www.youtube.com/watch?v=XMu46BRPLqA
+- Comprehensive Python Beautiful Soup Web Scraping Tutorial! (find/find_all, css select, scrape table): https://www.youtube.com/watch?v=GjKQ6V_ViQE
+- Advanced Web Scraping Tutorial! (w/ Python Beautiful Soup Library): https://www.youtube.com/watch?v=DcI_AZqfZVc
+- Python Tutorial: Web Scraping with Requests-HTML: https://www.youtube.com/watch?v=a6fIbtFB46g
+- BeautifulSoup + Requests | Web Scraping in Python: https://www.youtube.com/watch?v=bargNl2WeN4
+- Web Scraping in Python using Beautiful Soup | Writing a Python program to Scrape IMDB website: https://www.youtube.com/watch?v=LCVSmkyB4v8
+- Web Scraping With Python 101: https://www.youtube.com/watch?v=CHUxmVVH2AQ
+- Web Scraping with Python and BeautifulSoup is THIS easy!: https://www.youtube.com/watch?v=nBzrMw8hkmY
+- Web Scraping 101: How To Scrape 99% of Sites: https://www.youtube.com/watch?v=WYp0dmZOHXM
+- Amazon Web Scraping Using Python | Data Analyst Portfolio Project: https://www.youtube.com/watch?v=HiOtQMcI5wg
+```
+
 ## Conclusion  
    
 Harnessing the power of parallelization with Ray can greatly enhance your data processing workflows, especially when dealing with large datasets like YouTube video information. By spreading tasks across multiple cores or machines, you can achieve faster results and free up valuable time for deeper analysis or additional tasks.  
